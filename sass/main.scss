@@ -1,0 +1,22 @@
+
+@import "vars";
+@import "header";
+
+
+.producto {
+  background-color: tomato;
+  & &_tiutlo {
+    font: {
+      size: 30px;
+      weight: 400;
+      style: normal;
+    }
+  }
+  & &_info {
+    font-size: 16px;
+    line-height: 1;
+  }
+  & &_link {
+    color: turquoise;
+  }
+}

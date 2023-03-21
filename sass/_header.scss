@@ -1,0 +1,25 @@
+header {
+    background-color: $colorMain;
+    span {
+      color: black;
+    }
+    nav {
+      background: {
+        color: aqua;
+        image: url();
+        position: top center;
+      }
+      ul {
+        display: flex;
+        li {
+          list-style: none;
+          a {
+            color: red;
+            &:hover {
+              color: green;
+            }
+          }
+        }
+      }
+    }
+  }
